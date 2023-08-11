@@ -5,7 +5,7 @@
 /**
  * main - main function
  *
- * Description : This program generates a random number and determines
+ * Description : i used variabal (n)  This program generates a random number and determines
  * whether it is positive, negative, or zero.
  *
  * Return : always 0
