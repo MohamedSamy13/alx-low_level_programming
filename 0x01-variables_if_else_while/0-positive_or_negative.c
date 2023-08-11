@@ -1,29 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - main function
- *
- * Description : i used variabal (n)  This program generates a random number and determines
- * whether it is positive, negative, or zero.
- *
- * Return : always 0
- */
-
+ * main -  0x01. C - Variables, if, else, while
+ * Description : 0. Positive anything is better than negative nothing
+ * Return: 0
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive", n);
+		printf("%i is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero", n);
+		printf("%i is zero\n", n);
 	else
-		printf("%d is negative", n);
-	printf("\n");
+		printf("%i is negative\n", n);
 	return (0);
 }
