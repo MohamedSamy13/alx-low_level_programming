@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main -  0x01. C - Variables, if, else, while
- * Description : 0. Positive anything is better than negative nothing
+ * Description : adkljfbvadbsfkjlbnsmavkls
  * Return: 0
 */
 int main(void)
