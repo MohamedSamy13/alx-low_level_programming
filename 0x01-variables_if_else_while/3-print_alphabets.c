@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print alpha in caps and lower case 
+ * main - print alpha in caps and lower case
  *
  * Return: (0)
  *
