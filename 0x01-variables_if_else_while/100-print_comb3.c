@@ -19,7 +19,7 @@ int main(void)
 			if (num_1 < num_2)
 			{
 				putchar(num_1);
-				putchar(num_);
+				putchar(num_2);
 				if (num_1 != '8' || (num_1 == '8' && num_2 != '9'))
 				{
 					putchar(',');
