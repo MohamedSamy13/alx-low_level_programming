@@ -114,7 +114,7 @@ void print_data(unsigned char *e_ident)
 /**
  *  * print_version - Prints the version of an ELF header.
  *   * @e_ident: A pointer to an array containing the ELF version.
- *    */
+ */
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
@@ -185,7 +185,6 @@ void print_abi(unsigned char *e_ident)
 	printf(" ABI Version: %d\n",
 		e_ident[EI_ABIVERSION]);
 }
-
 /**
  * print_type - Prints the type of an ELF header.
  * @e_type: The ELF type.
@@ -219,7 +218,6 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_type);
 	}
 }
-
 /**
  * print_entry - Prints the entry point of an ELF header.
  * @e_entry: The address of the ELF entry point.
@@ -242,7 +240,6 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 	else
 		printf("%#lx\n", e_entry);
 }
-
 /**
  * close_elf - Closes an ELF file.
  * @elf: The file descriptor of the ELF file.
